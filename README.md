@@ -99,7 +99,7 @@ User 2 Recommendation:
 ## 🖼️ Web Deployment Preview
 
 ### 🏠 Home Page
-![Home Page](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/home.png)
+![Home Page](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/Screenshot 2025-08-03 012807.png)
 
 ### ✅ Console and Web Output
 ![Recommendations](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/recommendations.png)
