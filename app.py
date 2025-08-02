@@ -15,7 +15,7 @@ def home():
     return render_template("index.html", recommendations=recommendations)
 
 if __name__ == "__main__":
-    # ✅ عرض النتائج في الكونسول لكل المستخدمين من JSON
+    
     with open("user.json") as f:
         users = json.load(f)
         for user in users:
@@ -25,3 +25,4 @@ if __name__ == "__main__":
                 print(" -", r)
 
     app.run(debug=True)
+
