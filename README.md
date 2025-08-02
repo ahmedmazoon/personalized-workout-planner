@@ -1,21 +1,21 @@
 
 # 🏋️‍♂️ Workout Plan Recommender
 
-نظام توصية بسيط ومخصص يقدم خطط تمارين رياضية بناءً على أهداف المستخدم، تاريخ تمارينه السابقة، وأي إصابات صحية يعاني منها.
+A simple rule-based system that recommends personalized workout plans based on user goals, workout history, and existing injuries.
 
 ---
 
-## 📌 فكرة المشروع
+## 📌 Project Overview
 
-يعتمد هذا المشروع على **Rule-Based Recommendation System** لاقتراح التمارين المناسبة لكل مستخدم حسب:
+This project uses a **Rule-Based Recommendation System** to generate suitable workout suggestions for each user based on:
 
-- 🎯 أهدافه (مثل: خسارة الوزن، بناء العضلات)
-- 📋 تمارينه السابقة
-- ⚠️ الإصابات أو المشاكل الصحية
+- 🎯 **Goals** (e.g., lose weight, build muscle)
+- 📋 **Past workouts**
+- ⚠️ **Injuries or health conditions**
 
 ---
 
-## 🧠 مثال لبيانات المستخدم
+## 🧠 Sample User Data
 
 ```json
 {
@@ -33,52 +33,59 @@
 ```
 Workout-Recommender/
 │
-├── app.py                # Flask Web App
-├── recommender.py        # Rule-Based Recommendation Logic
-├── user.json             # Sample User Data
+├── app.py                # Flask web application
+├── recommender.py        # Rule-based recommendation logic
+├── user.json             # Sample user data
 │
 ├── templates/
-│   └── index.html        # Main HTML Page (Bootstrap UI)
+│   └── index.html        # Main Bootstrap UI
 │
-└── README.md             # Project Documentation
+├── static/
+│   └── style.css         # Optional custom styles
+│
+└── README.md             # Project documentation
 ```
 
 ---
 
 ## 💻 How to Run Locally
 
-### ⚙️ 1. Clone the repository
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/workout-recommender.git
 cd workout-recommender
 ```
 
-### 🐍 2. Install dependencies
+### 2️⃣ Install Dependencies
+
 ```bash
 pip install flask
 ```
 
-### 🚀 3. Run the web app
+### 3️⃣ Run the Flask App
+
 ```bash
 python app.py
 ```
 
-### 🌍 4. Open in your browser
-Go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+### 4️⃣ Open in Browser
+
+Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
 ## 🎥 Web Demo
 
-📺 **واجهة المستخدم التفاعلية:**
+📺 **Interactive Web Interface:**
 
-[▶️ شاهد الفيديو](https://user-images.githubusercontent.com/your-username/your-demo-video.mp4)
+[▶️ Watch Demo Video](https://user-images.githubusercontent.com/your-username/your-demo-video.mp4)
 
-*(ارفع الفيديو على GitHub أو YouTube وخد الرابط المباشر واستبدل اللينك 👆)*
+> Replace the link above with your actual video URL (GitHub, YouTube, etc.)
 
 ---
 
-## 🧪 مثال ناتج (في الكونسول)
+## 🧪 Example Console Output
 
 ```text
 User 1 Recommendation:
@@ -94,10 +101,9 @@ User 2 Recommendation:
 
 ---
 
-## 🧑‍💻 المطور
+## 👨‍💻 Developer
 
-- 👤 أحمد مازون  
-- 🔗 [GitHub: ahmedmazoon](https://github.com/ahmedmazoon)
+- **Ahmed Mazoon**
+- [GitHub Profile](https://github.com/ahmedmazoon)
 
 ---
-
