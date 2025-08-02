@@ -1,5 +1,5 @@
 
-# 🏋️‍♂️ Workout Plan Recommender
+# 🏋️‍♂️ Personalized Workout Planner
 
 A simple rule-based system that recommends personalized workout plans based on user goals, workout history, and existing injuries.
 
