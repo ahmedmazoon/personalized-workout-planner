@@ -1,0 +1,20 @@
+[
+    {
+        "user_id": 1,
+        "goal": "lose weight",
+        "past_workouts": ["cardio circuits", "crossfit"],
+        "injuries": ["knee"]
+    },
+    {
+        "user_id": 2,
+        "goal": "build muscle",
+        "past_workouts": ["deadlifts"],
+        "injuries": []
+    },
+    {
+        "user_id": 3,
+        "goal": "improve fitness",
+        "past_workouts": ["yoga", "cardio"],
+        "injuries": ["shoulder"]
+    }
+]
