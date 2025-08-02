@@ -99,10 +99,15 @@ User 2 Recommendation:
 ## 🖼️ Web Deployment Preview
 
 ### 🏠 Home Page
-![Home Page](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/Screenshot 2025-08-03 012807.png)
+<p align="center">  
+  <img src="static/confusion_matrix.png" width="500" alt="Confusion Matrix">  
+</p>
 
 ### ✅ Console and Web Output
-![Recommendations](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/recommendations.png)
+<p align="center">  
+  <img src="image/recommendations.png" width="500" alt="Accuracy Plot">  
+</p>
+
 ---
 ## 👨‍💻 Developer
 
