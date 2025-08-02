@@ -50,10 +50,8 @@ Workout-Recommender/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/personalized-workout-planner
-.git
+git clone https://github.com/ahmedmazoon/personalized-workout-planner.git
 cd personalized-workout-planner
-
 ```
 
 ### 2️⃣ Install Dependencies
