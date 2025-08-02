@@ -100,7 +100,7 @@ User 2 Recommendation:
 
 ### 🏠 Home Page
 <p align="center">  
-  <img src="static/confusion_matrix.png" width="500" alt="Confusion Matrix">  
+  <img src="image/home.png" width="500" alt="Confusion Matrix">  
 </p>
 
 ### ✅ Console and Web Output
