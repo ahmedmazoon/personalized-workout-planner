@@ -84,14 +84,25 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ```text
 User 1 Recommendation:
+ - Push-Pull Workout
+ - Full-Body Circuits
+ - Hiit
+ - Machine-Based Exercises
  - Swimming
- - Upper body workouts
- - Low-impact cycling
 
 User 2 Recommendation:
- - Deadlifts
- - Push-pull workout
- - Leg day plan
+ - Cardio Circuits
+ - Push-Pull Workout
+ - Full-Body Circuits
+ - Hiit
+ - Machine-Based Exercises
+
+User 3 Recommendation:
+ - Cardio Circuits
+ - Push-Pull Workout
+ - Full-Body Circuits
+ - Hiit
+ - Machine-Based Exercises
 ```
 
 ---
