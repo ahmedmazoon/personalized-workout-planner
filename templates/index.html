@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workout Recommender</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg rounded-4">
+                <div class="card-body">
+                    <h2 class="card-title text-center mb-4">🏋️ Workout Recommender</h2>
+
+                    <form method="post">
+                        <div class="mb-3">
+                            <label class="form-label">🎯 Goals (comma-separated):</label>
+                            <input type="text" name="goals" class="form-control" value="{{ request.form.get('goals', '') }}">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">📋 Past Workouts (comma-separated):</label>
+                            <input type="text" name="past" class="form-control" value="{{ request.form.get('past', '') }}">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">⚠️ Injuries (comma-separated):</label>
+                            <input type="text" name="injuries" class="form-control" value="{{ request.form.get('injuries', '') }}">
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Get Recommendations</button>
+                        </div>
+                    </form>
+
+                    {% if recommendations %}
+                        <hr class="my-4">
+
+                        <h4 class="mt-4">📌 Your Inputs</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item"><strong>Goals:</strong> {{ request.form.get('goals', 'N/A') }}</li>
+                            <li class="list-group-item"><strong>Past Workouts:</strong> {{ request.form.get('past', 'N/A') }}</li>
+                            <li class="list-group-item"><strong>Injuries:</strong> {{ request.form.get('injuries', 'N/A') }}</li>
+                        </ul>
+
+                        <h4>✅ Recommended Workouts</h4>
+                        <ul class="list-group">
+                            {% for item in recommendations %}
+                                <li class="list-group-item">{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
