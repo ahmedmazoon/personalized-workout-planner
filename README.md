@@ -96,6 +96,14 @@ User 2 Recommendation:
 
 ---
 
+## 🖼️ Web Deployment Preview
+
+### 🏠 Home Page
+![Home Page](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/home.png)
+
+### ✅ Console and Web Output
+![Recommendations](https://raw.githubusercontent.com/ahmedmazoon/personalized-workout-planner/main/image/recommendations.png)
+---
 ## 👨‍💻 Developer
 
 - **Ahmed Mazoon**
