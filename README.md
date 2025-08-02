@@ -40,9 +40,6 @@ Workout-Recommender/
 ├── templates/
 │   └── index.html        # Main Bootstrap UI
 │
-├── static/
-│   └── style.css         # Optional custom styles
-│
 └── README.md             # Project documentation
 ```
 
@@ -77,11 +74,9 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## 🎥 Web Demo
 
-📺 **Interactive Web Interface:**
+📺 **Interactive User Interface:**
 
-[▶️ Watch Demo Video](https://user-images.githubusercontent.com/your-username/your-demo-video.mp4)
-
-> Replace the link above with your actual video URL (GitHub, YouTube, etc.)
+▶️ [Watch Demo Video](https://drive.google.com/file/d/1wtC2V7snp0X5jTs77S9K8pw8l-Q4ISyh/view?usp=sharing)
 
 ---
 
