@@ -158,7 +158,6 @@ Each workout suggestion is scored based on how well it matches the user's profil
 
 > **Note:** The scoring is used **internally** to rank workouts in the top 5 suggestions.  
 > By default, the actual scores are **not displayed** in the web or console output.  
-> To display them, you can modify the return line in `generate_recommendations(...)`.
 
 ---
 
