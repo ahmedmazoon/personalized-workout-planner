@@ -9,9 +9,9 @@ A simple rule-based system that recommends personalized workout plans based on u
 
 This project uses a **Rule-Based Recommendation System** to generate suitable workout suggestions for each user based on:
 
-- 🎯 **Goals** (e.g., lose weight, build muscle)
-- 📋 **Past workouts**
-- ⚠️ **Injuries or health conditions**
+-  **Goals** (e.g., lose weight, build muscle)
+- **Past workouts**
+-  **Injuries or health conditions**
 
 ---
 
@@ -110,7 +110,7 @@ User 3 Recommendation:
   <img src="image/home.png" width="500" alt="Confusion Matrix">  
 </p>
 
-### ✅ Console and Web Output
+### ✅ Web Output
 <p align="center">  
   <img src="image/recommendations.png" width="500" alt="Accuracy Plot">  
 </p>
@@ -118,13 +118,13 @@ User 3 Recommendation:
 ---
 ## ✅ Features
 
-- 🧠 Rule-Based Workout Recommendations  
-- 📂 Reads user preferences from a JSON file  
-- ⚖️ Scores each workout suggestion based on relevance  
-- 🖥️ Flask web interface with Bootstrap styling  
-- 🔄 Dynamic display of personalized workout plans  
-- ⚠️ Injury-aware suggestions (avoids harmful exercises)  
-- 🧪 Console + Web output for testing and validation 
+-  Rule-Based Workout Recommendations  
+-  Reads user preferences from a JSON file  
+-  Scores each workout suggestion based on relevance  
+-  Flask web interface with Bootstrap styling  
+-  Dynamic display of personalized workout plans  
+- ⚠ Injury-aware suggestions (avoids harmful exercises)  
+-  Console + Web output for testing and validation 
 ---
 ## 👨‍💻 Developer
 
