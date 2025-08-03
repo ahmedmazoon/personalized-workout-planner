@@ -43,7 +43,7 @@ def generate_recommendations(goals_input, past_input, injuries_input):
     injuries = clean_list(injuries_input)
 
     if not user_goals:
-        return ["⚠️ Please enter at least one valid goal."]
+        return [" Please enter at least one valid goal."]
 
     scored = []
     for workout in all_workouts:
@@ -53,3 +53,4 @@ def generate_recommendations(goals_input, past_input, injuries_input):
 
     sorted_workouts = sorted(scored, key=lambda x: x[1], reverse=True)
     return [w.title() for w, s in sorted_workouts[:5]]
+
