@@ -123,7 +123,7 @@ User 3 Recommendation:
 -  Scores each workout suggestion based on relevance  
 -  Flask web interface with Bootstrap styling  
 -  Dynamic display of personalized workout plans  
-- ⚠ Injury-aware suggestions (avoids harmful exercises)  
+-  Injury-aware suggestions (avoids harmful exercises)  
 -  Console + Web output for testing and validation 
 ---
 ## 👨‍💻 Developer
