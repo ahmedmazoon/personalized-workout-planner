@@ -156,6 +156,10 @@ Each workout suggestion is scored based on how well it matches the user's profil
 - The scoring rules are **customizable** and can be extended later (e.g., to include fitness level or available equipment).
 - This logic ensures that recommendations are both **goal-oriented** and **injury-aware**, even without machine learning.
 
+> **Note:** The scoring is used **internally** to rank workouts in the top 5 suggestions.  
+> By default, the actual scores are **not displayed** in the web or console output.  
+> To display them, you can modify the return line in `generate_recommendations(...)`.
+
 ---
 
 
