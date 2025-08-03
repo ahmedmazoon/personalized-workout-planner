@@ -117,44 +117,47 @@ User 3 Recommendation:
 
 ---
 
+---
+
 ## 📊 Scoring Logic
 
 Each workout suggestion is scored based on how well it matches the user's profile:
 
-| **Criterion**                     | **Points** |
-|----------------------------------|------------|
-| Matches user's fitness goal      | +2         |
-| Found in past workouts           | +1         |
-| Does **not** aggravate injury    | +1         |
-| **Maximum Score per workout**    | **4**      |
+| **Criterion**                          | **Points** |
+|----------------------------------------|------------|
+| Matches user's fitness goal            | +0.4       |
+| Does **not** aggravate injury          | +0.3       |
+| **New** workout (not done in the past) | +0.3       |
+| **Maximum Score per workout**          | **1.0**     |
 
 ### 🧮 Example 1
 
 **Workout:** `HIIT`  
-**User Goal:** `lose weight` ✅ → +2  
-**Past Workouts:** `["cardio", "hiit"]` ✅ → +1  
-**Injury (knee):** `HIIT` is safe ✅ → +1  
-**Total Score:** **4**
+**User Goal:** `lose weight` ✅ → +0.4  
+**Past Workouts:** `["cardio", "hiit"]` ❌ (already done) → +0  
+**Injury (knee):** `HIIT` is safe ✅ → +0.3  
+**Total Score:** **0.7**
 
 ### 🧮 Example 2
 
 **Workout:** `Squats`  
-**User Goal:** `build muscle` ✅ → +2  
-**Past Workouts:** `["cardio"]` ❌ → +0  
+**User Goal:** `build muscle` ❌ → +0  
+**Past Workouts:** `["cardio"]` ✅ → +0.3  
 **Injury (knee):** `Squats` may cause strain ❌ → +0  
-**Total Score:** **2**
+**Total Score:** **0.3**
 
 ---
 
 ### 📝 Notes:
 
 - Workouts are **ranked by score**: higher-scoring exercises appear first in the final recommendations.
-- The system **excludes** any workouts that conflict with reported injuries.
+- The system **excludes** any workouts with zero score.
 - If multiple workouts have the same score, they’re grouped together without a specific order.
 - The scoring rules are **customizable** and can be extended later (e.g., to include fitness level or available equipment).
 - This logic ensures that recommendations are both **goal-oriented** and **injury-aware**, even without machine learning.
 
 ---
+
 
 ## ✅ Features
 
